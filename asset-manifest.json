@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/techneith/static/css/main.11b99dec.chunk.css",
+    "main.js": "/techneith/static/js/main.4f8028a4.chunk.js",
+    "main.js.map": "/techneith/static/js/main.4f8028a4.chunk.js.map",
+    "runtime-main.js": "/techneith/static/js/runtime-main.1ccb1c73.js",
+    "runtime-main.js.map": "/techneith/static/js/runtime-main.1ccb1c73.js.map",
+    "static/js/2.3945214f.chunk.js": "/techneith/static/js/2.3945214f.chunk.js",
+    "static/js/2.3945214f.chunk.js.map": "/techneith/static/js/2.3945214f.chunk.js.map",
+    "index.html": "/techneith/index.html",
+    "static/css/main.11b99dec.chunk.css.map": "/techneith/static/css/main.11b99dec.chunk.css.map",
+    "static/js/2.3945214f.chunk.js.LICENSE.txt": "/techneith/static/js/2.3945214f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ccb1c73.js",
+    "static/js/2.3945214f.chunk.js",
+    "static/css/main.11b99dec.chunk.css",
+    "static/js/main.4f8028a4.chunk.js"
+  ]
+}
