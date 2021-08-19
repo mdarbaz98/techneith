@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&display=swap');
+
+
+.specs-section{
+    padding: 8% 0%;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* heading or title */
+h2 span{
+    font-size: 50px;
+    color: #606060FF;
+    font-weight: 900;
+}
+
+.specs-container{
+    display: flex;
+    padding: 4% 8%;
+    align-items: center;
+    color: #101820FF;
+    position: relative;
+}
+
+.specs-container .specs-features{
+    width: 100%;
+}
+
+.specs-container .specs-image img{
+    position: relative;
+    top: 60px;
+}
+
+
+.specs-container .specs-features .specs-data{
+    position: relative;
+    width: 100%;
+    padding: 20px 0px;
+    line-height: 1.5;
+}
+
+.specs-container .specs-features .specs-data i{
+    font-size: 2.5rem;
+}
+
+.specs-container .specs-features .specs-data h3{
+    font-size: 1.4rem;
+}
+
+.specs-data:nth-child(2),.specs-data:nth-child(3){
+    margin-left: 50px;
+}
+
+/* media query for ipad */
+@media screen and (max-width: 768px) {
+    /* heading  */
+    h2{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    /* heading */
+    h2 span{
+        font-size: 30px;
+        color: #606060FF;
+        font-weight: 900;
+    }
+
+    .specs-container .specs-image img{
+        position: absolute;
+        width: 50%;
+        top: 100px;
+        right: 100px;
+    }
+
+    .specs-container .specs-features .specs-data{
+        position: relative;
+        width: 100%;
+        padding: 20px 0px;
+        line-height: 1.3;
+    }
+
+    .specs-container .specs-features .specs-data i{
+        font-size: 1.5rem;
+    }
+
+    .specs-container .specs-features .specs-data h3{
+        font-size: 1rem;
+    }
+
+    .specs-container .specs-features .specs-data span{
+        font-size: 12px;
+    }
+
+    .specs-data:nth-child(2),.specs-data:nth-child(3){
+        margin-left: 0px;
+    }
+    .specs-data:nth-child(1),.specs-data:nth-child(4){
+        margin-left: 50px;
+    }
+}
+
+/* media query for mobile */
+@media screen and (max-width: 400px){
+    .specs-container .specs-image img{
+        width: 80%;
+        top: 100px;
+        right: 0;
+    }
+    .specs-container .specs-features .specs-data i{
+        font-size: 1.2rem;
+    }
+
+    .specs-container .specs-features .specs-data h3{
+        font-size: 0.8rem;
+    }
+    .specs-container .specs-features .specs-data span{
+        font-size: 10px;
+    }
+}

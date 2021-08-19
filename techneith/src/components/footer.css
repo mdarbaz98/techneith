@@ -1,0 +1,121 @@
+.footer{
+    box-sizing: border-box;
+    position: absolute;
+    background-color:#101820FF;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    color: white;
+}
+
+.footer .col{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+}
+
+/* footer headings  */
+h2{
+    margin-bottom: 20px;
+}
+
+.footer .col a .logo{
+    font-size: 200px;
+}
+
+.footer ul li{
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+.footer .col ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.footer .col h3{
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer .col .social{
+    display: flex;
+}
+
+.footer .col .social i{
+    padding: 8px;
+    font-size: 25px;
+    color: #101820FF;
+    background-color: #FEE715FF;
+    border-radius: 50px;
+    transition: all 0.5s;
+    margin: 0px 10px;
+}
+
+/* hover  */
+
+.footer .col .social i:hover{
+    color: #FEE715FF;
+    background-color: white;
+}
+
+.footer ul .links :hover{
+    margin-left: 10px;
+    color: #606060FF;
+}
+
+/* media query for ipad  */
+@media screen and (max-width: 768px) {
+    /* footer headings  */
+    h2{
+        font-size: 15px;
+    }
+    .footer .col ul li a{
+        font-size: 12px;
+    }
+    .footer .col h3{
+        font-size: 0.6rem;
+    }
+    .footer .col a .logo{
+        font-size: 100px;
+    }
+}
+
+/* media query for mobile  */
+@media screen and (max-width: 400px){
+    .footer{
+        display: block;
+    }
+    .footer .col{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    /* footer headings  */
+    h2{
+        font-size: 20px;
+    }
+    .footer .col ul{
+        width: 100%;
+    }
+}
